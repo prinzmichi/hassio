@@ -1,0 +1,23 @@
+{
+    "1": "switch.stern_2",
+    "10": "switch.sonoff",
+    "11": "switch.michischreibtisch",
+    "12": "light.yeelight_rgb_34ce008b8c34",
+    "13": "light.gateway_light_286c0785bb66",
+    "14": "media_player.xperia_z3",
+    "15": "media_player.mibox3",
+    "16": "media_player.mi_box",
+    "17": "switch.schreibtisch",
+    "18": "switch.bodenlicht",
+    "19": "media_player.plex_plex_30a94378cb21aef5_com_plexapp_android",
+    "2": "media_player.plex_plex_ce4fczqpelelrkq9u56xfaba",
+    "20": "light.yeelight_rgb_34ce00846ea2",
+    "21": "media_player.aftt",
+    "3": "light.michilicht",
+    "4": "light.esstischlicht",
+    "5": "light.meikeschreibtischlampe",
+    "6": "light.yeelight_rgb_34ce00817c96",
+    "7": "media_player.ue32j6250_ue32j6200",
+    "8": "media_player.michi_fritz",
+    "9": "switch.stern"
+}

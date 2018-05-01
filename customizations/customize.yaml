@@ -1,0 +1,8 @@
+light.gateway_light_286c0785bb66:
+  friendly_name: Gateway
+light.yeelight_rgb_34ce00817c96:
+  friendly_name: MichiLicht
+media_player.ue32j6250_ue32j6200:
+  friendly_name: Fernseher Wohnzimmer
+switch.sonoff:
+  friendly_name: Bodenlicht

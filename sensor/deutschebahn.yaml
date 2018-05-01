@@ -1,0 +1,12 @@
+  - platform: deutsche_bahn
+    from: Eisenach
+    to: 'Stedtfeld Ortsmitte, Eisenach (Thür)'
+  - platform: deutsche_bahn
+    from: 'Stedtfeld Ortsmitte, Eisenach (Thür)'
+    to: Eisenach
+  - platform: deutsche_bahn
+    from: Fulda
+    to: Eisenach
+  - platform: deutsche_bahn
+    from: Eisenach
+    to: Fulda

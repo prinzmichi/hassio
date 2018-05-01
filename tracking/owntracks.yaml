@@ -1,0 +1,10 @@
+  - platform: owntracks_http
+    max_gps_accuracy: 200
+    waypoints: True
+    events_only: True
+    waypoint_whitelist:
+      - jon
+      - ram
+    region_mapping:
+      cabin: home
+      office: work

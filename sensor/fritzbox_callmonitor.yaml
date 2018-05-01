@@ -1,0 +1,9 @@
+  - platform: fritzbox_callmonitor
+    name: FritzBox
+    username: !secret fritzbox_username
+    password: !secret fritzbox_password
+    phonebook: 0
+    prefixes:
+      - '+49'
+      - '+4989'
+      - '089'

@@ -1,0 +1,8 @@
+  - platform: luftdaten
+    sensorid: 9956
+    show_on_map: True
+    monitored_conditions:
+      - P1
+      - P2
+      - temperature
+      - humidity

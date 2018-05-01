@@ -1,0 +1,4 @@
+  - platform: scrape
+    resource: https://www.home-assistant.io
+    name: Donner
+    select: ".bo_gmap"

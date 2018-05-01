@@ -1,0 +1,14 @@
+- alias: Nachts aus Steckdose
+  trigger:
+    platform: time
+    at: '00:30:00'
+  action:
+    - service: switch.turn_off
+      entity_id: switch.michischreibtisch
+- alias: Automatisch an Steckdose
+  trigger:
+    platform: time
+    at: '18:00:00'
+  action:
+    - service: switch.turn_on
+      entity_id: switch.michischreibtisch

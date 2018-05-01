@@ -1,0 +1,19 @@
+# Test Google
+- alias: Google
+  trigger:
+    platform: time
+    at: '07:30:00'
+  condition:
+  - condition: time
+    weekday:
+      - mon
+      - tue
+      - wed
+      - thu
+      - fri
+  action:
+    - service: tts.google_say
+      data_template:
+        entity_id: media_player.michi_fritz
+        message: "Die Temperatur draußen ist {{states('sensor.temperature_158d0001a1fb34')}} grad celsius. Bei eine Luftfeuchtigkeit von {{states('sensor.humidity_158d0001a1fb34')}} Prozent "
+        cache: false

@@ -1,0 +1,7 @@
+  light:
+    name: light
+    entities:
+      - light.gateway_light_286c0785bb66
+      - light.yeelight_rgb_34ce00817c96
+      - light.yeelight_rgb_34ce00846ea2
+      - light.yeelight_rgb_34ce008b8c34

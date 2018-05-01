@@ -1,0 +1,11 @@
+  # Tracking entity to entity
+  - platform: google_travel_time
+    name: Michi nach Stedtfeld
+    api_key: AIzaSyBoM_0sAn8joP5Cj8i1d1jxEIV7XKcNDYs
+    origin: device_tracker.michi_michixperia
+    destination: zone.home
+  - platform: google_travel_time
+    name: Michi nach Beierfeld
+    api_key: AIzaSyBoM_0sAn8joP5Cj8i1d1jxEIV7XKcNDYs
+    origin: device_tracker.michi_michixperia
+    destination: Obere Viehtrift 19, Grünhain-Beierfeld

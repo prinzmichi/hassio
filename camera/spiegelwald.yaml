@@ -1,0 +1,12 @@
+  - platform: mjpeg
+    name: Spiegelwald Cam
+    still_image_url: http://cam.spiegelwald.de/jpg/image.jpg
+    mjpeg_url: http://cam.spiegelwald.de/axis-cgi/mjpg/video.cgi
+  - platform: mjpeg
+    name: Schwarzenberg Webcam
+    still_image_url: http://tehome1.no-ip.org:86/axis-cgi/jpg/image.cgi
+    mjpeg_url: http://tehome1.no-ip.org:86/axis-cgi/mjpg/video.cgi
+  - platform: mjpeg
+    name: Stedtfeld Webcam
+    still_image_url: http://webcam.gis-eisenach.de/webcam-gis-dach_xga.jpg
+    mjpeg_url: http://webcam.gis-eisenach.de/webcam-gis-dach_xga.jpg

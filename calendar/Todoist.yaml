@@ -1,0 +1,8 @@
+  - platform: todoist
+    token: !secret todoist_token
+    custom_projects:
+      - name: 'Alexa-Einkaufsliste'
+        labels:
+          - Einkaufsliste
+        include_projects:
+          - 'Alexa-Einkaufsliste'

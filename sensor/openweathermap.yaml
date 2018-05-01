@@ -1,0 +1,9 @@
+  - platform: openweathermap
+    api_key: !secret openweathermapapi
+    monitored_conditions:
+      - weather
+      - temperature
+      - wind_speed
+      - humidity
+      - rain
+      - snow

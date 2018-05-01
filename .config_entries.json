@@ -1,0 +1,14 @@
+[
+    {
+        "data": {
+            "bridge_id": "00155DFFFE37CB00",
+            "host": "192.168.178.70",
+            "username": "6a06a607b7874ed89fd641a8895a35fe"
+        },
+        "domain": "hue",
+        "entry_id": "42e3853653ca400ebd67641c76b2b8e7",
+        "source": "discovery",
+        "title": "HA-Bridge",
+        "version": 1
+    }
+]

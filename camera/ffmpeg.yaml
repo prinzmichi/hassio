@@ -1,0 +1,4 @@
+  - platform: ffmpeg
+    name: Cam1
+    input: rtsp://192.168.178.96:554/unicast
+    extra_arguments: -q:v 2-32

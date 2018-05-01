@@ -1,0 +1,12 @@
+  - platform: generic
+    still_image_url: https://api.sat24.com/animated/DE/visual/1/W_dot_%20Europe%20Standard%20Time/8685357
+    name: Wolken Deutschland
+  - platform: generic
+    still_image_url: https://api.sat24.com/animated/DE/rainTMC/1/W_dot_%20Europe%20Standard%20Time/1489390
+    name: Regen Deutschland
+  - platform: generic
+    still_image_url: https://api.sat24.com/crop?type=visual5hdcomplete&lat=50.9796&lon=10.3147&width=300&height=300&zoom=1.00&continent=eu
+    name: Wolken Eisenach
+  - platform: generic
+    still_image_url: https://api.sat24.com/crop?type=rainTMC&lat=50.9796&lon=10.3147&width=300&height=300&zoom=1.00&continent=eu 
+    name: Regen Eisenach    
