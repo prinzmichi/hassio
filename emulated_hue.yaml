@@ -1,0 +1,25 @@
+listen_port: 80
+host_ip: 192.168.178.70
+advertise_ip: 192.168.178.70
+exposed_domains:
+  - switch
+  - light
+  - media_player
+  - script
+entities:
+  switch.stern_2:
+    name: Stern
+  light.michilicht:
+    name: Michi Licht
+  light.meikeschreibtischlampe:
+    name: Meike Licht
+  light.lichter:
+    name: Lichter
+  light.esstischlicht:
+    name: Esstisch
+  light.bodenlicht:
+    name: Bodenlicht
+  group.alles:
+    name: Alles
+  media_player.ue32j6250_ue32j6200:
+    name: Wohnzimmer Fernseher

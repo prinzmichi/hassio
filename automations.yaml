@@ -1,0 +1,19 @@
+  - alias: 'Set theme at startup'
+    initial_state: 'on'
+    trigger:
+     - platform: homeassistant
+       event: start
+    action:
+      service: frontend.set_theme
+      data:
+        name: PmxMononight
+  - alias: Toggle dining light on single press
+    trigger:
+      - platform: event
+      - event_type: click
+      - event_data:
+        entity_id: binary_sensor.switch_158d000xxxxxc2
+        click_type: single
+    action:
+    service: switch.toggle
+    entity_id: switch.wall_switch_left_158d000xxxxx01

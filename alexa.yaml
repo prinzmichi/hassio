@@ -1,0 +1,23 @@
+filter:
+  include_domains:
+    - light
+    - media_player
+    - scene
+    - script
+    - switch
+  include_entities:
+    - group.lichter
+    - group.schalter
+  exclude_domains:
+    - group
+entity_config:
+  switch.sonoff:
+    name: Bodenlicht
+  switch.stern_2:
+    name: Stern
+  group.lichter:
+    name: Alle Lichter
+  media_player.ue32j6250_ue32j6200:
+    name: Wohnzimmer Fernseher  
+    
+    

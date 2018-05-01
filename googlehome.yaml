@@ -1,0 +1,22 @@
+    filter:
+      include_domains:
+        - light
+        - media_player
+        - scene
+        - script
+        - switch
+      include_entities:
+        - group.lichter
+        - group.schalter
+      exclude_domains:
+        - group
+    entity_config:
+      switch.sonoff:
+        name: Bodenlicht
+        type: 'action.devices.traits.OnOff'
+      switch.stern_2:
+        name: Stern
+        type: 'action.devices.traits.OnOff'
+      group.lichter:
+        name: Alle Lichter
+        type: 'action.devices.traits.OnOff'

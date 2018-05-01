@@ -1,0 +1,27 @@
+  - alias: 'Set theme at startup'
+    initial_state: 'on'
+    trigger:
+     - platform: homeassistant
+       event: start
+    action:
+      service: frontend.set_theme
+      data:
+        name: day
+  - alias: 'Nacht Modus'
+    initial_state: True
+    trigger:
+      - platform: time
+        at: '21:00'
+    action:
+      - service: frontend.set_theme
+        data:
+          name: darkred
+  - alias: 'Tag Modus'
+    initial_state: true
+    trigger:
+      - platform: time
+        at: '07:00'
+    action:
+      - service: frontend.set_theme
+        data:
+          name: day

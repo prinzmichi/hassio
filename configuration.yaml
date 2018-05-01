@@ -1,0 +1,106 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: !secret hassname
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret latitude
+  longitude: !secret longitude
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: !secret elevation
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Berlin
+  customize: !include customize.yaml
+  customize_glob:
+    'switch.rf_*':
+      assumed_state: false
+      icon: 'mdi:lightbulb'
+    'sensor.temperature_*':
+      friendly_name: Temperatur
+    'sensor.pressure_*':
+      friendly_name: Luftdruck
+    'sensor.humidity_*':
+      friendly_name: Luftfeuchtigkeit
+
+
+# Enables the frontend
+frontend:
+  themes: !include_dir_merge_named themes
+recorder:
+
+# Enables configuration UI
+config:
+cloud:
+  alexa: !include alexa.yaml
+ 
+google_assistant:
+  project_id: !secret googleassistantproject_id
+  client_id: !secret googleassistantclient_id
+  access_token: !secret googleassistantaccess_token
+  api_key: !secret googleassistantapi_key
+  exposed_domains:
+    - switch
+    - light
+    - group
+ifttt:
+  key: !secret iftttkey
+
+
+http:
+  cors_allowed_origins:
+    - http://192.168.178.70:7080
+    - http://192.168.178.70:80
+  # Secrets are defined in the file secrets.yaml
+  api_password: !secret http_password
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  base_url: !secret base_url
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  include_used_components: true
+
+
+discovery:
+history:
+logbook:
+map:
+sun:
+ffmpeg:
+tts:
+  - platform: google
+    language: 'de'
+
+
+
+
+mqtt:
+  broker: core-mosquitto
+  username: !secret MQTT_USERNAME
+  password: !secret MQTT_PASSWORD
+  discovery: true
+  discovery_prefix: homeassistant
+  
+
+automation: !include_dir_merge_list automations
+script: !include scripts.yaml
+switch: !include_dir_merge_list switch
+light: !include_dir_merge_list lights
+device_tracker: !include_dir_merge_list tracking
+sensor: !include_dir_merge_list sensor
+notify: !include_dir_merge_list notify
+media_player: !include_dir_merge_list media_player
+group: !include groups.yaml
+camera: !include_dir_merge_list camera
+binary_sensor: !include_dir_merge_list binary_sensor
+weather: !include_dir_merge_list binary_sensor
+calendar: !include_dir_merge_list calendar
+panel_iframe: !include_dir_merge_list panel_iframe
+emulated_hue: !include emulated_hue.yaml
+remote: !include_dir_merge_list remote

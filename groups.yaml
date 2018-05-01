@@ -1,0 +1,110 @@
+    Lichter:
+        - light.esstisch
+        - light.gateway_light_286c0785bb66
+        - light.meikeschreibtischlampe
+        - light.michilicht
+        - switch.stern_2
+        - switch.sonoff
+        - switch.bodenlicht
+    Schalter:
+        - switch.schreibtisch
+    Mediaplay:
+        - media_player.michi_fritz
+        - media_player.ue32j6250_ue32j6200
+        - sensor.plex
+        - media_player.plex_plex_ce4fczqpelelrkq9u56xfaba
+    Bus und Bahn:
+        - sensor.stedtfeld_ortsmitte_eisenach_thur_to_eisenach
+        - sensor.eisenach_to_stedtfeld_ortsmitte_eisenach_thur
+        - sensor.fulda_to_eisenach
+        - sensor.eisenach_to_fulda
+    Auto:
+        - sensor.michi_nach_stedtfeld
+        - sensor.michi_nach_beierfeld
+    Regenradar:
+        - camera.regen_deutschland
+        - camera.wolken_deutschland
+        - camera.regen_eisenach
+        - camera.wolken_eisenach
+    Batterie:
+        - sensor.battery_aussentemperatur
+        - sensor.battery_bewegungssensor1
+        - sensor.battery_bewegungssensor2
+        - sensor.battery_buttonsensor1
+        - sensor.battery_lichtschalter1
+        - sensor.battery_michi_xperia_xz
+    Wetter:
+        - sensor.humidity_158d0001a1fb34
+        - sensor.temperature_158d0001a1fb34
+        - sensor.dwdweatherwarnings_advance_warning_level
+        - sensor.dwdweatherwarnings_current_warning_level
+        - sensor.owm_humidity
+        - sensor.owm_rain
+        - sensor.owm_snow
+        - sensor.owm_temperature
+        - sensor.owm_wind_speed
+        - sensor.yw_day1_temperature_max
+        - sensor.yw_day1_temperature_min
+        - sensor.yw_day2_condition
+        - sensor.yw_day2_temperature_max
+        - sensor.yw_day2_temperature_min
+        - sensor.yw_day2_condition
+        - sun.sun
+        - sensor.luftdaten_pm10
+        - sensor.luftdaten_pm25
+    Alles:
+        - group.all_switches
+        - group.all_lights
+        - group.all_devices
+        - group.all_scripts
+        - group.all_automations 
+    Ueberwachungskameras:
+        - camera.home
+        - camera.schwarzenberg_webcam
+        - camera.spiegelwald_cam
+        - camera.stedtfeld_webcam
+    default_view:
+        name: Home
+        view: true
+        icon: mdi:home
+        entities:
+            - group.Lichter
+            - group.Schalter 
+    Lights View:
+        name: Lichter und Schalter
+        view: yes
+        entities:
+            - group.Lichter
+            - group.Schalter           
+    Mediaplay View:
+        name: Mediaplay
+        view: true
+        entities:
+            - group.Mediaplay    
+    Wetter View:
+        name: Wetter
+        view: true
+        entities:
+            - group.weather
+            - group.Wetter
+            - group.Regenradar
+    Ueberwachungskameras View:
+        name: "Cams"
+        view: true
+        entities:
+            - group.Ueberwachungskameras
+    Bus und Bahn View:
+        name: "Bus/Bahn/Travel"
+        view: true
+        entities:
+            - group.Bus_und_Bahn
+    Batterie View:
+        name: Batterie
+        view: true
+        entities:
+            - group.Batterie
+    weather:
+        name: Weer custom
+        entities:
+            - input_text.weather
+            

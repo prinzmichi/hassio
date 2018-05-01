@@ -1,0 +1,152 @@
+sensor.humidity_158d00011002cc:
+  name:
+  platform: xiaomi_aqara
+  unique_id: humidity158d00011002cc
+sensor.pressure_158d0001a1fb34:
+  name:
+  platform: xiaomi_aqara
+  unique_id: pressure158d0001a1fb34
+sensor.illumination_286c0785bb66:
+  name:
+  platform: xiaomi_aqara
+  unique_id: illumination286c0785bb66
+sensor.temperature_158d00011002cc:
+  name:
+  platform: xiaomi_aqara
+  unique_id: temperature158d00011002cc
+sensor.humidity_158d0001a1fb34:
+  name:
+  platform: xiaomi_aqara
+  unique_id: humidity158d0001a1fb34
+sensor.temperature_158d0001a1fb34:
+  name:
+  platform: xiaomi_aqara
+  unique_id: temperature158d0001a1fb34
+light.gateway_light_286c0785bb66:
+  name:
+  platform: xiaomi_aqara
+  unique_id: rgb286c0785bb66
+media_player.michi_fritz:
+  name:
+  platform: cast
+  unique_id: 5fd3abb7-c14c-9e05-3a13-254c0912b2d2
+binary_sensor.switch_158d0001548923:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d0001548923
+binary_sensor.motion_sensor_158d00014d0b8a:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d00014d0b8a
+binary_sensor.wall_switch_left_158d00012a4911:
+  name:
+  platform: xiaomi_aqara
+  unique_id: channel_0158d00012a4911
+binary_sensor.wall_switch_right_158d00012a4911:
+  name:
+  platform: xiaomi_aqara
+  unique_id: channel_1158d00012a4911
+binary_sensor.wall_switch_both_158d00012a4911:
+  name:
+  platform: xiaomi_aqara
+  unique_id: dual_channel158d00012a4911
+binary_sensor.motion_sensor_158d00015a89a6:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d00015a89a6
+media_player.mibox3:
+  name:
+  platform: cast
+  unique_id: 2bc13eee-5fb2-43a1-1aa0-df6d77674f3b
+media_player.chrome:
+  name:
+  platform: plex
+  unique_id: pudw2jt6nlneoa9vvo4p9vxa
+media_player.chrome_2:
+  name: Michi Plex
+  platform: plex
+  unique_id: 0mrziemy8pjrif4gm6k7t1l4
+media_player.xperia_z3:
+  name:
+  platform: plex
+  unique_id: fa84c314e0878bde-com-plexapp-android
+switch.sonoff:
+  name:
+  platform: wemo
+  unique_id: 201612K00747347
+media_player.aftt:
+  name:
+  platform: plex
+  unique_id: 7068d9200793d6f5-com-plexapp-android
+media_player.emby__emby_mobile__chrome:
+  name:
+  platform: emby
+  unique_id: 8a01a4248400bf29784bed13b8dd354cc5bfab09.Emby Mobile
+media_player.mi_box:
+  name:
+  platform: plex
+  unique_id: 789b759f7fea00a4-com-plexapp-android
+media_player.emby__emby_for_android_mobile__d6603:
+  name:
+  platform: emby
+  unique_id: bbd56c056b7b4553.Emby for Android Mobile
+media_player.emby__emby_for_android_mobile__d6603_2:
+  name:
+  platform: emby
+  unique_id: fa84c314e0878bde.Emby for Android Mobile
+media_player.emby__androidtv__xiaomi_mibox3:
+  name:
+  platform: emby
+  unique_id: 789b759f7fea00a4.AndroidTv
+switch.stern:
+  name:
+  platform: wemo
+  unique_id: 201612K007429A6
+media_player.emby__emby_mobile__chrome_2:
+  name:
+  platform: emby
+  unique_id: b8d9797dfd365dfbff5ea5c48b00c50caedb428b.Emby Mobile
+media_player.plex_plex_ce4fczqpelelrkq9u56xfaba:
+  name: Michi Plex Chrome
+  platform: plex
+  unique_id: ce4fczqpelelrkq9u56xfaba
+media_player.chrome_3:
+  name:
+  platform: plex
+  unique_id: voqgqe4qrmwrdddxlshxlh8s
+light.mediaplayer:
+  name:
+  platform: hue
+  unique_id: 00:17:88:5E:D3:06-06
+light.esstisch:
+  name:
+  platform: hue
+  unique_id: 00:17:88:5E:D3:04-04
+light.lichter:
+  name:
+  platform: hue
+  unique_id: 00:17:88:5E:D3:02-02
+light.bodenlicht:
+  name:
+  platform: hue
+  unique_id: 00:17:88:5E:D3:07-07
+light.stern:
+  name:
+  platform: hue
+  unique_id: 00:17:88:5E:D3:03-03
+light.michilicht_2:
+  name:
+  platform: hue
+  unique_id: 00:17:88:5E:D3:05-05
+media_player.plex_plex_30a94378cb21aef5_com_plexapp_android:
+  name:
+  platform: plex
+  unique_id: 30a94378cb21aef5-com-plexapp-android
+light.wohnzimmer_fernseher:
+  name:
+  platform: hue
+  unique_id: 00:17:88:5E:D3:08-08
+switch.michischreibtisch:
+  name:
+  platform: wemo
+  unique_id: 201612K0073FAC5
