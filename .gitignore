@@ -14,3 +14,6 @@ __pycache__
 /.ps4-wake.credentials.json
 /.ps4.conf
 /tts
+gitupdate.sh
+dropbox_uploader.sh
+dropbox.py
